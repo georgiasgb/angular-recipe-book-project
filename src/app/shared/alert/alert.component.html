@@ -1,0 +1,10 @@
+<div class="backdrop" (click)="close()"></div>
+<div class="alert-box">
+    <strong><p>{{ message.header }}</p></strong>
+    <p>{{ message.message }}</p>
+    <div class="alert-box-actions">
+        <button class="btn btn-warning" (click)="close()">
+            Close
+        </button>
+    </div>
+</div>

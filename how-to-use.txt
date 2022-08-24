@@ -1,0 +1,20 @@
+How to use
+----------
+
+Run "npm install" inside this project folder to install all dependencies.
+
+Make sure you use the latest version of the CLI.
+
+Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
+
+
+Additional configuration
+------------------------
+
+-> Firebase
+
+To connect to the Firebase database, it is necessary to set the connection url to the database in the data_storage.service.ts file in the shared folder.
+
+-> FirebaseAPIKey
+
+To use Firebase Authentication REST API, you need to set the firebaseAPIKey environment variable.
